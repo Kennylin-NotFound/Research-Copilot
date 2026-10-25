@@ -1,0 +1,27 @@
+[project]
+name = "research-copilot"
+version = "0.1.0"
+description = "A research workspace with source-grounded agents and persistent project memory."
+readme = "README.md"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "aiosqlite==0.22.1",
+    "deepagents==0.5.7",
+    "fastapi==0.136.1",
+    "langchain==1.2.17",
+    "langchain-core==1.3.3",
+    "langchain-openai==1.2.1",
+    "langgraph==1.1.10",
+    "langgraph-checkpoint-sqlite==3.0.3",
+    "openai==2.35.1",
+    "pydantic==2.13.4",
+    "pypdf==6.11.0",
+    "python-dotenv==1.2.2",
+    "python-multipart==0.0.28",
+    "requests==2.33.1",
+    "tavily-python==0.7.24",
+    "uvicorn[standard]==0.46.0",
+]
+
+[tool.uv]
+package = false
